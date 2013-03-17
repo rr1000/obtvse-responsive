@@ -1,0 +1,142 @@
+/* Insert your custom theme here */
+body{
+	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+}
+body p{
+	line-height: 2;
+}
+body a:hover{
+	color: #999;
+}
+body a{
+	color: #444;
+  	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+}
+h1.headerTitle a{
+	border-bottom: 0px;
+	color: #0076a3;
+}
+header p{
+	font-size: 10pt;
+	color: #999;
+}
+header p a{
+	color: #999;
+}
+header{
+	background-color: #fff;
+}
+body h1{
+	font-size: 20pt;
+	font-weight: 700;
+}
+footer{
+	padding: 20px;
+	background-color: #444;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+footer p{
+	margin-left: 275px;
+	width: 400px;
+	color: #fff;
+	font-size: 10pt;
+}
+footer a{
+	color: #a8cfdf;
+	border-bottom: 0px;
+}
+/* media queries */
+@media all and (max-width: 960px){
+.post p{
+	width: 500px;
+}
+}
+/* */
+@media all and (max-width: 813px){
+header{
+	width: 100px;
+}
+.post p{
+	width: 400px;
+}
+body h1{
+	font-size: 15pt;
+}
+#container{
+	margin-left: 180px;
+}
+}
+/* */
+@media all and (max-width: 646px){
+header{
+	width: 100px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+header ul{
+	margin-top: 10px;
+}
+header ul li{
+	display: inline;
+	margin-right: 10px;
+}
+header ul li:after{
+	content: " |";
+}
+.post p{
+	width: 400px;
+}
+body h1{
+	font-size: 15pt;
+}
+#container{
+	margin-left: 0px;
+}
+}
+/* */
+@media all and (max-width: 427px){
+header{
+	width: 100px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+header ul{
+	margin-top: 10px;
+}
+header ul li{
+	display: inline;
+	margin-right: 10px;
+}
+header ul li:after{
+	content: " |";
+}
+.post p{
+	width: 300px;
+}
+body h1{
+	font-size: 15pt;
+}
+#container{
+	margin-left: 0px;
+}
+}
